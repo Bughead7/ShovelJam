@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://5174n45wd7m0"]
+
+[ext_resource type="Script" uid="uid://cny50kpagfsyf" path="res://Scripts/main_girl.gd" id="1_3qwjx"]
+[ext_resource type="Texture2D" uid="uid://bkil4sdu1nk1x" path="res://Assets/mc_standard_sprite.PNG" id="2_p8ol3"]
+
+[node name="MainGirl" type="Node2D"]
+script = ExtResource("1_3qwjx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_p8ol3")
